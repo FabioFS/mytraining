@@ -1,0 +1,20 @@
+<div class="my-training-container">
+  <header>
+    <app-header #menu></app-header>
+  </header>
+  <main>
+      <mat-drawer-container class="my-training-draw-container" [hasBackdrop]="hasBackdrop">
+        <mat-drawer [opened]="menu.statusMenu" [mode]="mode">
+          <span>Opções</span>
+        </mat-drawer>
+        <mat-drawer-content>
+            <router-outlet></router-outlet>
+        </mat-drawer-content>
+      </mat-drawer-container>
+  </main>
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+</div>
+
+
