@@ -26,6 +26,7 @@ import { GymMembershipComponent } from './gym-membership/gym-membership.componen
 import { AvatarComponent } from './avatar/avatar.component';
 import { ImageCropperComponent } from './avatar/image-cropper/image-cropper.component';
 import { ProfileComponent } from './profile/profile.component';
+import { TimerComponent } from './timer/timer.component';
 
 
 
@@ -40,7 +41,8 @@ import { ProfileComponent } from './profile/profile.component';
     GymMembershipComponent,
     AvatarComponent,
     ImageCropperComponent,
-    ProfileComponent
+    ProfileComponent,
+    TimerComponent
   ],
   imports: [
     CommonModule,

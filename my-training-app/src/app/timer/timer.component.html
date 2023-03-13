@@ -1,0 +1,28 @@
+<div style="width: 80px;
+height: 80px;
+line-height: 25px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;">
+
+  <div style="position: relative; margin-top: 50%;">{{countDown}}
+    <div style="position: relative; margin-top: -65%;">
+      <svg [attr.height]="svgSize"
+          [attr.width]="svgSize">
+        <path [attr.d]="circuloFundoCoordenadas"
+              [attr.stroke]="circuloFundoStroke"
+              [attr.stroke-width]="circuloFundoStrokeWidth"
+              fill="transparent"></path>
+        <path [attr.d]="circuloTimerCoordenadas"
+              [attr.stroke]="circuloTimerStroke"
+              [attr.stroke-width]="circuloTimerStrokeWidth"
+              fill="transparent"></path>
+      </svg>
+     </div>
+
+  </div>
+
+
+</div>

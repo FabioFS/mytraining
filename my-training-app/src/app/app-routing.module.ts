@@ -1,3 +1,4 @@
+import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { MenuCentralComponent } from './menu-central/menu-central.component';
