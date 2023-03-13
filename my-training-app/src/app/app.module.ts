@@ -14,6 +14,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatInputModule} from '@angular/material/input';
+import {MatTableModule} from '@angular/material/table';
 
 
 import { PersonalTrainerComponent } from './personal-trainer/personal-trainer.component';
@@ -55,6 +56,7 @@ import { ProfileComponent } from './profile/profile.component';
     FormsModule,
     ReactiveFormsModule,
     MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

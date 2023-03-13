@@ -8,9 +8,6 @@
 
 mat-drawer-content {
   padding: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 mat-drawer {
@@ -18,6 +15,8 @@ mat-drawer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  // background-color: #00000000;
+  // background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0.372) );
 }
 
 .my-training-container{
